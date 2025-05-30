@@ -1,6 +1,6 @@
-ultralytics==8.1.25
+ultralytics
 streamlit
 numpy
 Pillow
-opencv-python-headless==4.7.0.72
+opencv-python-headless
 requests
