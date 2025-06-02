@@ -7,7 +7,7 @@ import cv2
 
 st.set_page_config(page_title="Weapon Detection", layout="centered")
 
-st.title("🛡️ Weapon Detection using YOLOv8n")
+st.title("🛡️ Weapon Detection")
 
 model = YOLO("best.pt")
 
