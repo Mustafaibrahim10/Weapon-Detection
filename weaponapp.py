@@ -28,11 +28,10 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("📦 **Model**: YOLOv8n")
     st.markdown("🎯 **Use Case**: Real-time Weapon Detection")
-    st.markdown("📁 **Model file**: `best.pt`")
 
 # Main layout
 st.markdown("<h1 style='text-align: center;'>🔫 Real-Time Weapon Detection</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center;'>Streamlit app powered by YOLOv8n to detect weapons via webcam.</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center;'>Streamlit app powered by YOLOv8n to detect Weapons.</p>", unsafe_allow_html=True)
 
 status_placeholder = st.empty()
 frame_placeholder = st.empty()
